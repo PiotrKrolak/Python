@@ -4,6 +4,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+# zdefiniowanie wlasnej funkcji do rysowania wykresow
 def my_plotter(ax, data1, data2, param_dict):
     """
     A helper function to make a graph
@@ -30,8 +31,9 @@ def my_plotter(ax, data1, data2, param_dict):
     out = ax.plot(data1, data2, **param_dict)
     return out
 
-# which you would then use as:
 
-data1, data2, data3, data4 = np.random.randn(4, 100)
-fig, ax = plt.subplots(1, 1)
-my_plotter(ax, data1, data2, {'marker': 'x'})
+data1, data2, data3, data4 = np.random.randn(4, 100) # wygenerowanie losowego zestawu danych
+fig, ax = plt.subplots(1, 1) # dodanie pod wykresow 1 rzad 1 kolumna
+my_plotter(ax, data1, data2, {'marker': 'x'}) # wywolanie wczesniej zdefiniowanej funkcji
+
+plt.show() # wywolanie wykresow
