@@ -7,6 +7,6 @@ import numpy as np
 #z = np.arange(0, 10, 0.2)
 x = np.arange(0, 10, 0.2)
 y = np.sin(x)
-fig, ax = plt.subplots()
-ax.plot(x, y)
-plt.show()
+fig, ax = plt.subplots() # definiuje ax jako wykres
+ax.plot(x, y) # przypisuje do wykresu "ax" pozycje x i y
+plt.show() # wywoluje rysowanie wykresu
