@@ -1,5 +1,0 @@
-pierwsza,linia.tego;dokumentu tekstowego
-druga,linia.tego;dokumentu tekstowego
-trzecia,linia.tego;dokumentu tekstowego
-czwarta,linia.tego;dokumentu tekstowego
-piata,linia.tego;dokumentu tekstowego
